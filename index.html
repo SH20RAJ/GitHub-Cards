@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GitHub Cards</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div style="text-align:center;" class="form">
+		<form action="embed.html" method="get">
+			<input type="text" name="user" placeholder="Enter GitHub Username">
+      <button type="submit">Preview</button>
+   <button onclick="embed()">Embed</button>
+   </form>
+
+  </div>
+
+  <div id="repos" class="github-cards"></div>
+  
+  <script src="githubcards.js"></script>
+</body>
+</html>
